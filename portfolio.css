@@ -176,8 +176,12 @@ section .title::after{
     margin: auto 0 auto 30px;
 }
 .home .home-content .text-1{
+    color: #ffffff;
+    text-shadow: 0 0 0 transparent, 0 0 10px #655ce6, 0 0 20px rgba(89, 113, 218, 0.5), 0 0 40px #0b49a7, 0 0 100px #3c45c0, 0 0 200px #0a3faf, 0 0 300px #0d5beb, 0 0 500px #424cdf, 0 0 1000px #313cd3;
+    -webkit-animation: blink 4s infinite alternate;
+            animation: blink 4s infinite alternate;
+    margin-left: -3px;
     font-size: 50px;
-    color: rgb(255, 255, 255);
 }
 .home .home-content .text-2{
     color: #ffd9e2;
