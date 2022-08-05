@@ -281,6 +281,8 @@ section .title::after{
 .about .about-content .right  img{
     height: 40px;
     font-weight: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
 }
 .about .about-content .right  img:hover{
     height: 60px;
